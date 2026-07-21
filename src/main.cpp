@@ -4,6 +4,7 @@
 #include <cstdlib>
 #include "Image.h"
 #include <cmath>
+#include <fstream>
 
 Image downsample(Image& img, int pixelSize);
 
@@ -13,17 +14,17 @@ extern uint8_t highestValue(uint8_t* data, int size, int channels);
 extern uint8_t lowestValue(uint8_t* data, int size, int channels);
 
 int sobelFilter(uint8_t* data, int width, int height, int channels, int x, int y);
-int dogFilter(uint8_t* data, int width, int height, int channels, int x, int y, const std::vector<std::vector<float>>& kernel);
-std::vector<std::vector<float>> createDoGKernel(float sigma1, float sigma2);
 
+void printToFile(const std::vector<std::string>& asciiArt, const std::string& filename);
 
 int main() {
     std::string inputFilename;
-    int pixelSize = 8; // You can adjust this value to change the downsampling size
-    bool invertImage = false; // Set to true if you want to invert the image
-    bool onlyEdges = false; // Set to true if you want to only show edges in the ASCII art
-    int lowThreshold = 30; // Default low threshold for two-band thresholding
-    int highThreshold = 220; // Default high threshold for two-band thresholding
+    std::string outputFilename = "../images/output_ascii.txt";
+    int pixelSize = 8;
+    bool invertImage = false; 
+    int lowThreshold = 30;
+    int highThreshold = 220;
+    bool onlyEdges = false;
 
     std::cout << "Input filename: " << std::endl;
     std::cin >> inputFilename;
@@ -63,6 +64,7 @@ int main() {
     //downsampled.write("../images/output_downsampled_grayscale.jpg");
 
     std::vector<std::string> asciiArt = convertToASCII(img, pixelSize, onlyEdges);
+    printToFile(asciiArt, outputFilename);
 
     std::cout << "ASCII Art:" << std::endl;
     for (const auto& line : asciiArt) {
@@ -138,8 +140,6 @@ std::vector<std::string> convertToASCII(Image& img, int pixelSize, bool onlyEdge
 
             // 2. If it's an edge, draw the structural character
             if (angle != -1) {
-                // Note: I grouped opposite angles together (e.g., 45 and 225) 
-                // since they represent the same visual line orientation.
                 switch (angle / 45) {
                     case 0: case 4: line += "|"; break; 
                     case 1: case 5: line += "\\"; break; 
@@ -177,4 +177,18 @@ uint8_t lowestValue(uint8_t* data, int size, int channels) {
         }
     }
     return minVal;
+}
+
+void printToFile(const std::vector<std::string>& asciiArt, const std::string& filename) {
+    std::ofstream outFile(filename);
+    if (!outFile) {
+        std::cerr << "Error opening file for writing: " << filename << std::endl;
+        return;
+    }
+
+    for (const auto& line : asciiArt) {
+        outFile << line << std::endl;
+    }
+
+    outFile.close();
 }

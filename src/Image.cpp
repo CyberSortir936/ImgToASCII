@@ -41,12 +41,10 @@ Image::~Image() {
 
 bool Image::read(const char* filename){
     int original_channels; // Temporary variable
-    
-    // Pass &original_channels as the 4th argument, NOT &channels
+
     data = stbi_load(filename, &width, &height, &original_channels, 3);
     
     if (data != nullptr) {
-        // Manually tell your struct that the data array has 3 channels per pixel
         this->channels = 3; 
         return true;
     }
@@ -80,7 +78,7 @@ ImageFormat Image::getFormat(const char* filename) {
         if (strcmp(ext, ".bmp") == 0) return ImageFormat::BMP;
         if (strcmp(ext, ".tga") == 0) return ImageFormat::TGA;
     }
-    return ImageFormat::PNG; // Default format
+    return ImageFormat::PNG;
 }
 
 Image& Image::grayscale() {
@@ -140,13 +138,13 @@ Image& Image::maxContrast() {
 Image& Image::twoBandThreshold(uint8_t lowThreshold, uint8_t highThreshold){
     for (int i = 0; i < width * height * channels; i += channels) { // Assuming grayscale
         if (data[i] < lowThreshold) {
-            data[i] = 0; // Black
-            data[i + 1] = 0; // Black
-            data[i + 2] = 0; // Black
+            data[i] = 0;
+            data[i + 1] = 0;
+            data[i + 2] = 0;
         } else if (data[i] > highThreshold) {
-            data[i] = 255; // White
-            data[i + 1] = 255; // White
-            data[i + 2] = 255; // White
+            data[i] = 255;
+            data[i + 1] = 255;
+            data[i + 2] = 255;
         }
     }
     return *this;
