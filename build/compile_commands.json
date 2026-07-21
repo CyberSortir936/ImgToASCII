@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/mnt/Data/Other/Code/cpp/ASCII/build",
+  "command": "/usr/bin/c++  -I/mnt/Data/Other/Code/cpp/ASCII/src -g -std=gnu++17 -fsanitize=address -fno-omit-frame-pointer -g -o CMakeFiles/main.dir/src/main.cpp.o -c /mnt/Data/Other/Code/cpp/ASCII/src/main.cpp",
+  "file": "/mnt/Data/Other/Code/cpp/ASCII/src/main.cpp",
+  "output": "CMakeFiles/main.dir/src/main.cpp.o"
+},
+{
+  "directory": "/mnt/Data/Other/Code/cpp/ASCII/build",
+  "command": "/usr/bin/c++  -I/mnt/Data/Other/Code/cpp/ASCII/src -g -std=gnu++17 -fsanitize=address -fno-omit-frame-pointer -g -o CMakeFiles/main.dir/src/Image.cpp.o -c /mnt/Data/Other/Code/cpp/ASCII/src/Image.cpp",
+  "file": "/mnt/Data/Other/Code/cpp/ASCII/src/Image.cpp",
+  "output": "CMakeFiles/main.dir/src/Image.cpp.o"
+}
+]
