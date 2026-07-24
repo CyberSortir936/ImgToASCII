@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/mnt/Data/Other/Code/cpp/ASCII/src
 
-CXX_FLAGS = -std=gnu++17 -fsanitize=address -fno-omit-frame-pointer -g
+CXX_FLAGS = -g -std=gnu++17 -fsanitize=address -fno-omit-frame-pointer -g
 

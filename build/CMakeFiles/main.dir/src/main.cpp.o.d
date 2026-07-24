@@ -169,4 +169,8 @@ CMakeFiles/main.dir/src/main.cpp.o: \
  /usr/include/c++/16/bits/codecvt.h \
  /usr/include/c++/16/x86_64-redhat-linux/bits/basic_file.h \
  /usr/include/c++/16/x86_64-redhat-linux/bits/c++io.h \
- /usr/include/c++/16/bits/fstream.tcc
+ /usr/include/c++/16/bits/fstream.tcc /usr/include/c++/16/array \
+ /usr/include/c++/16/compare \
+ /mnt/Data/Other/Code/cpp/ASCII/src/stb_truetype.h \
+ /usr/include/c++/16/math.h /usr/include/c++/16/stdlib.h \
+ /usr/include/assert.h
