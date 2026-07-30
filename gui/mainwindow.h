@@ -66,6 +66,8 @@ private slots:
 
     void on_SaveButton_clicked();
 
+    void on_AccentDropDown_currentIndexChanged(int index);
+
 private:
     Ui::MainWindow *ui;
 

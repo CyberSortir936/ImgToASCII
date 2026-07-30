@@ -1,0 +1,6 @@
+set(__QT_DEPLOY_TARGET_main_FILE /mnt/Data/Other/Code/cpp/ASCII/cli/main)
+set(__QT_DEPLOY_TARGET_main_TYPE EXECUTABLE)
+set(__QT_DEPLOY_TARGET_ASCII_GUI_FILE /mnt/Data/Other/Code/cpp/ASCII/gui/ASCII_GUI)
+set(__QT_DEPLOY_TARGET_ASCII_GUI_TYPE EXECUTABLE)
+set(__QT_DEPLOY_TARGET_core_FILE /mnt/Data/Other/Code/cpp/ASCII/core/libcore.a)
+set(__QT_DEPLOY_TARGET_core_TYPE STATIC_LIBRARY)

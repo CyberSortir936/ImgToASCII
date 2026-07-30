@@ -1,3 +1,0 @@
-/mnt/Data/Other/Code/cpp/ASCII/cli/build/CMakeFiles/main.dir
-/mnt/Data/Other/Code/cpp/ASCII/cli/build/CMakeFiles/edit_cache.dir
-/mnt/Data/Other/Code/cpp/ASCII/cli/build/CMakeFiles/rebuild_cache.dir

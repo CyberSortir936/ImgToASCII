@@ -1,8 +1,0 @@
-[
-{
-  "directory": "/mnt/Data/Other/Code/cpp/ASCII/cli/build",
-  "command": "/usr/bin/c++  -I/mnt/Data/Other/Code/cpp/ASCII/cli/src -g -std=gnu++17 -fsanitize=address -fno-omit-frame-pointer -g -o CMakeFiles/main.dir/src/main.cpp.o -c /mnt/Data/Other/Code/cpp/ASCII/cli/src/main.cpp",
-  "file": "/mnt/Data/Other/Code/cpp/ASCII/cli/src/main.cpp",
-  "output": "CMakeFiles/main.dir/src/main.cpp.o"
-}
-]

@@ -1,4 +1,4 @@
 {
-    "cmake.sourceDirectory": "/mnt/Data/Other/Code/cpp/ASCII/cli",
-    "cmake.buildDirectory": "/mnt/Data/Other/Code/cpp/ASCII/cli/build"
+    "cmake.sourceDirectory": "${workspaceFolder}",
+    "cmake.buildDirectory": "${workspaceFolder}"
 }
