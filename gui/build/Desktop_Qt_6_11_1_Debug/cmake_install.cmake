@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/Data/Other/Code/cpp/qt/ASCII_GUI
+# Install script for directory: /mnt/Data/Other/Code/cpp/ASCII/gui
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -49,7 +49,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ASCII_GUI"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/mnt/Data/Other/Code/cpp/qt/ASCII_GUI/build/Desktop_Qt_6_11_1_Debug/ASCII_GUI")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/mnt/Data/Other/Code/cpp/ASCII/gui/build/Desktop_Qt_6_11_1_Debug/ASCII_GUI")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ASCII_GUI" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ASCII_GUI")
     file(RPATH_CHANGE
@@ -77,6 +77,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-  file(WRITE "/mnt/Data/Other/Code/cpp/qt/ASCII_GUI/build/Desktop_Qt_6_11_1_Debug/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/mnt/Data/Other/Code/cpp/ASCII/gui/build/Desktop_Qt_6_11_1_Debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

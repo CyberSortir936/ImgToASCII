@@ -602,17 +602,17 @@ ASCII_GUI_autogen/timestamp: \
 	/home/cybersortir936/Qt/Tools/CMake/share/cmake-3.30/Modules/Platform/Linux-Initialize.cmake \
 	/home/cybersortir936/Qt/Tools/CMake/share/cmake-3.30/Modules/Platform/Linux.cmake \
 	/home/cybersortir936/Qt/Tools/CMake/share/cmake-3.30/Modules/Platform/UnixPaths.cmake \
-	/mnt/Data/Other/Code/cpp/qt/ASCII_GUI/CMakeLists.txt \
-	/mnt/Data/Other/Code/cpp/qt/ASCII_GUI/build/Desktop_Qt_6_11_1_Debug/.qtcreator/cmake-helper/maintenance_tool_provider.cmake \
-	/mnt/Data/Other/Code/cpp/qt/ASCII_GUI/build/Desktop_Qt_6_11_1_Debug/.qtcreator/cmake-helper/package-manager.cmake \
-	/mnt/Data/Other/Code/cpp/qt/ASCII_GUI/build/Desktop_Qt_6_11_1_Debug/.qtcreator/cmake-helper/qtcreator-project.cmake \
-	/mnt/Data/Other/Code/cpp/qt/ASCII_GUI/build/Desktop_Qt_6_11_1_Debug/ASCII_GUI_autogen/moc_predefs.h \
-	/mnt/Data/Other/Code/cpp/qt/ASCII_GUI/build/Desktop_Qt_6_11_1_Debug/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake \
-	/mnt/Data/Other/Code/cpp/qt/ASCII_GUI/build/Desktop_Qt_6_11_1_Debug/CMakeFiles/3.30.5/CMakeSystem.cmake \
-	/mnt/Data/Other/Code/cpp/qt/ASCII_GUI/colorSchemes.h \
-	/mnt/Data/Other/Code/cpp/qt/ASCII_GUI/main.cpp \
-	/mnt/Data/Other/Code/cpp/qt/ASCII_GUI/mainwindow.cpp \
-	/mnt/Data/Other/Code/cpp/qt/ASCII_GUI/mainwindow.h \
+	/mnt/Data/Other/Code/cpp/ASCII/gui/CMakeLists.txt \
+	/mnt/Data/Other/Code/cpp/ASCII/gui/build/Desktop_Qt_6_11_1_Debug/.qtcreator/cmake-helper/maintenance_tool_provider.cmake \
+	/mnt/Data/Other/Code/cpp/ASCII/gui/build/Desktop_Qt_6_11_1_Debug/.qtcreator/cmake-helper/package-manager.cmake \
+	/mnt/Data/Other/Code/cpp/ASCII/gui/build/Desktop_Qt_6_11_1_Debug/.qtcreator/cmake-helper/qtcreator-project.cmake \
+	/mnt/Data/Other/Code/cpp/ASCII/gui/build/Desktop_Qt_6_11_1_Debug/ASCII_GUI_autogen/moc_predefs.h \
+	/mnt/Data/Other/Code/cpp/ASCII/gui/build/Desktop_Qt_6_11_1_Debug/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake \
+	/mnt/Data/Other/Code/cpp/ASCII/gui/build/Desktop_Qt_6_11_1_Debug/CMakeFiles/3.30.5/CMakeSystem.cmake \
+	/mnt/Data/Other/Code/cpp/ASCII/gui/colorSchemes.h \
+	/mnt/Data/Other/Code/cpp/ASCII/gui/main.cpp \
+	/mnt/Data/Other/Code/cpp/ASCII/gui/mainwindow.cpp \
+	/mnt/Data/Other/Code/cpp/ASCII/gui/mainwindow.h \
 	/usr/include/alloca.h \
 	/usr/include/asm-generic/bitsperlong.h \
 	/usr/include/asm-generic/errno-base.h \
@@ -900,5 +900,5 @@ ASCII_GUI_autogen/timestamp: \
 	/usr/lib/gcc/x86_64-redhat-linux/16/include/stdarg.h \
 	/usr/lib/gcc/x86_64-redhat-linux/16/include/stdbool.h \
 	/usr/lib/gcc/x86_64-redhat-linux/16/include/stddef.h \
-	/mnt/Data/Other/Code/cpp/qt/ASCII_GUI/mainwindow.ui \
+	/mnt/Data/Other/Code/cpp/ASCII/gui/mainwindow.ui \
 	/home/cybersortir936/Qt/Tools/CMake/bin/cmake

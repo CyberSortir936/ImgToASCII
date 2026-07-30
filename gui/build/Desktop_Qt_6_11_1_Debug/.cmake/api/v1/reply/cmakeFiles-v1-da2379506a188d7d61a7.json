@@ -2485,8 +2485,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/mnt/Data/Other/Code/cpp/qt/ASCII_GUI/build/Desktop_Qt_6_11_1_Debug",
-		"source" : "/mnt/Data/Other/Code/cpp/qt/ASCII_GUI"
+		"build" : "/mnt/Data/Other/Code/cpp/ASCII/gui/build/Desktop_Qt_6_11_1_Debug",
+		"source" : "/mnt/Data/Other/Code/cpp/ASCII/gui"
 	},
 	"version" : 
 	{

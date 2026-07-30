@@ -279,7 +279,7 @@
 			[
 				{
 					"backtrace" : 0,
-					"path" : "/mnt/Data/Other/Code/cpp/qt/ASCII_GUI/build/Desktop_Qt_6_11_1_Debug/ASCII_GUI_autogen/include"
+					"path" : "/mnt/Data/Other/Code/cpp/ASCII/gui/build/Desktop_Qt_6_11_1_Debug/ASCII_GUI_autogen/include"
 				},
 				{
 					"backtrace" : 32,
@@ -328,11 +328,11 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 0,
-			"id" : "ASCII_GUI_autogen::@6890427a1f51a3e7e1df"
+			"id" : "ASCII_GUI_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		},
 		{
-			"id" : "ASCII_GUI_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+			"backtrace" : 0,
+			"id" : "ASCII_GUI_autogen::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "ASCII_GUI::@6890427a1f51a3e7e1df",

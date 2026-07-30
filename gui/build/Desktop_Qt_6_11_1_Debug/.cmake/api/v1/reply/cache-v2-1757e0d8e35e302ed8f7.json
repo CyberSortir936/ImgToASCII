@@ -11,7 +11,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/mnt/Data/Other/Code/cpp/qt/ASCII_GUI/build/Desktop_Qt_6_11_1_Debug"
+			"value" : "/mnt/Data/Other/Code/cpp/ASCII/gui/build/Desktop_Qt_6_11_1_Debug"
 		},
 		{
 			"name" : "ASCII_GUI_IS_TOP_LEVEL",
@@ -35,7 +35,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/mnt/Data/Other/Code/cpp/qt/ASCII_GUI"
+			"value" : "/mnt/Data/Other/Code/cpp/ASCII/gui"
 		},
 		{
 			"name" : "CMAKE_ADDR2LINE",
@@ -91,7 +91,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/mnt/Data/Other/Code/cpp/qt/ASCII_GUI/build/Desktop_Qt_6_11_1_Debug"
+			"value" : "/mnt/Data/Other/Code/cpp/ASCII/gui/build/Desktop_Qt_6_11_1_Debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -487,7 +487,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/mnt/Data/Other/Code/cpp/qt/ASCII_GUI/build/Desktop_Qt_6_11_1_Debug/CMakeFiles/pkgRedirects"
+			"value" : "/mnt/Data/Other/Code/cpp/ASCII/gui/build/Desktop_Qt_6_11_1_Debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -559,7 +559,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/mnt/Data/Other/Code/cpp/qt/ASCII_GUI"
+			"value" : "/mnt/Data/Other/Code/cpp/ASCII/gui"
 		},
 		{
 			"name" : "CMAKE_INSTALL_BINDIR",
@@ -1067,7 +1067,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/mnt/Data/Other/Code/cpp/qt/ASCII_GUI/build/Desktop_Qt_6_11_1_Debug/.qtcreator/cmake-helper/qtcreator-project.cmake"
+			"value" : "/mnt/Data/Other/Code/cpp/ASCII/gui/build/Desktop_Qt_6_11_1_Debug/.qtcreator/cmake-helper/qtcreator-project.cmake"
 		},
 		{
 			"name" : "CMAKE_PROJECT_NAME",
@@ -1691,7 +1691,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/mnt/Data/Other/Code/cpp/qt/ASCII_GUI/build/Desktop_Qt_6_11_1_Debug/.qtcreator/cmake-helper"
+			"value" : "/mnt/Data/Other/Code/cpp/ASCII/gui/build/Desktop_Qt_6_11_1_Debug/.qtcreator/cmake-helper"
 		},
 		{
 			"name" : "QT_ADDITIONAL_HOST_PACKAGES_PREFIX_PATH",

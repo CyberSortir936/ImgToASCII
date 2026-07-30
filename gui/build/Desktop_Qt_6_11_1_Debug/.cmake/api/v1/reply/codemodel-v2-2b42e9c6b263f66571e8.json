@@ -44,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ASCII_GUI::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ASCII_GUI-Debug-f1f4fe42f63f7fd61058.json",
+					"jsonFile" : "target-ASCII_GUI-Debug-da57fa8ab32f59b90161.json",
 					"name" : "ASCII_GUI",
 					"projectIndex" : 0
 				},
@@ -68,8 +68,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/mnt/Data/Other/Code/cpp/qt/ASCII_GUI/build/Desktop_Qt_6_11_1_Debug",
-		"source" : "/mnt/Data/Other/Code/cpp/qt/ASCII_GUI"
+		"build" : "/mnt/Data/Other/Code/cpp/ASCII/gui/build/Desktop_Qt_6_11_1_Debug",
+		"source" : "/mnt/Data/Other/Code/cpp/ASCII/gui"
 	},
 	"version" : 
 	{

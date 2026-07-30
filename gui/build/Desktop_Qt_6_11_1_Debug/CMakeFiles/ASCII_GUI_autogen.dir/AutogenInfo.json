@@ -1,18 +1,18 @@
 {
-	"BUILD_DIR" : "/mnt/Data/Other/Code/cpp/qt/ASCII_GUI/build/Desktop_Qt_6_11_1_Debug/ASCII_GUI_autogen",
-	"CMAKE_BINARY_DIR" : "/mnt/Data/Other/Code/cpp/qt/ASCII_GUI/build/Desktop_Qt_6_11_1_Debug",
-	"CMAKE_CURRENT_BINARY_DIR" : "/mnt/Data/Other/Code/cpp/qt/ASCII_GUI/build/Desktop_Qt_6_11_1_Debug",
-	"CMAKE_CURRENT_SOURCE_DIR" : "/mnt/Data/Other/Code/cpp/qt/ASCII_GUI",
+	"BUILD_DIR" : "/mnt/Data/Other/Code/cpp/ASCII/gui/build/Desktop_Qt_6_11_1_Debug/ASCII_GUI_autogen",
+	"CMAKE_BINARY_DIR" : "/mnt/Data/Other/Code/cpp/ASCII/gui/build/Desktop_Qt_6_11_1_Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/mnt/Data/Other/Code/cpp/ASCII/gui/build/Desktop_Qt_6_11_1_Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/mnt/Data/Other/Code/cpp/ASCII/gui",
 	"CMAKE_EXECUTABLE" : "/home/cybersortir936/Qt/Tools/CMake/bin/cmake",
 	"CMAKE_LIST_FILES" : 
 	[
-		"/mnt/Data/Other/Code/cpp/qt/ASCII_GUI/CMakeLists.txt",
-		"/mnt/Data/Other/Code/cpp/qt/ASCII_GUI/build/Desktop_Qt_6_11_1_Debug/.qtcreator/cmake-helper/qtcreator-project.cmake",
-		"/mnt/Data/Other/Code/cpp/qt/ASCII_GUI/build/Desktop_Qt_6_11_1_Debug/.qtcreator/cmake-helper/package-manager.cmake",
+		"/mnt/Data/Other/Code/cpp/ASCII/gui/CMakeLists.txt",
+		"/mnt/Data/Other/Code/cpp/ASCII/gui/build/Desktop_Qt_6_11_1_Debug/.qtcreator/cmake-helper/qtcreator-project.cmake",
+		"/mnt/Data/Other/Code/cpp/ASCII/gui/build/Desktop_Qt_6_11_1_Debug/.qtcreator/cmake-helper/package-manager.cmake",
 		"/home/cybersortir936/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake",
 		"/home/cybersortir936/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeSystem.cmake.in",
-		"/mnt/Data/Other/Code/cpp/qt/ASCII_GUI/build/Desktop_Qt_6_11_1_Debug/CMakeFiles/3.30.5/CMakeSystem.cmake",
-		"/mnt/Data/Other/Code/cpp/qt/ASCII_GUI/build/Desktop_Qt_6_11_1_Debug/.qtcreator/cmake-helper/maintenance_tool_provider.cmake",
+		"/mnt/Data/Other/Code/cpp/ASCII/gui/build/Desktop_Qt_6_11_1_Debug/CMakeFiles/3.30.5/CMakeSystem.cmake",
+		"/mnt/Data/Other/Code/cpp/ASCII/gui/build/Desktop_Qt_6_11_1_Debug/.qtcreator/cmake-helper/maintenance_tool_provider.cmake",
 		"/home/cybersortir936/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake",
 		"/home/cybersortir936/Qt/Tools/CMake/share/cmake-3.30/Modules/Platform/Linux-Initialize.cmake",
 		"/home/cybersortir936/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake",
@@ -65,7 +65,7 @@
 		"/home/cybersortir936/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeFindBinUtils.cmake",
 		"/home/cybersortir936/Qt/Tools/CMake/share/cmake-3.30/Modules/Compiler/GNU-FindBinUtils.cmake",
 		"/home/cybersortir936/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeCXXCompiler.cmake.in",
-		"/mnt/Data/Other/Code/cpp/qt/ASCII_GUI/build/Desktop_Qt_6_11_1_Debug/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake",
+		"/mnt/Data/Other/Code/cpp/ASCII/gui/build/Desktop_Qt_6_11_1_Debug/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake",
 		"/home/cybersortir936/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake",
 		"/home/cybersortir936/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeGenericSystem.cmake",
 		"/home/cybersortir936/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake",
@@ -91,7 +91,7 @@
 		"/home/cybersortir936/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerSupport.cmake",
 		"/home/cybersortir936/Qt/Tools/CMake/share/cmake-3.30/Modules/Internal/FeatureTesting.cmake",
 		"/home/cybersortir936/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeCXXCompiler.cmake.in",
-		"/mnt/Data/Other/Code/cpp/qt/ASCII_GUI/build/Desktop_Qt_6_11_1_Debug/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake",
+		"/mnt/Data/Other/Code/cpp/ASCII/gui/build/Desktop_Qt_6_11_1_Debug/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake",
 		"/home/cybersortir936/Qt/6.11.1/gcc_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake",
 		"/home/cybersortir936/Qt/6.11.1/gcc_64/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake",
 		"/home/cybersortir936/Qt/6.11.1/gcc_64/lib/cmake/Qt6/Qt6Config.cmake",
@@ -586,28 +586,28 @@
 		"/home/cybersortir936/Qt/6.11.1/gcc_64/lib/cmake/Qt6/Qt6Dependencies.cmake",
 		"/home/cybersortir936/Qt/Tools/CMake/share/cmake-3.30/Modules/GNUInstallDirs.cmake"
 	],
-	"CMAKE_SOURCE_DIR" : "/mnt/Data/Other/Code/cpp/qt/ASCII_GUI",
+	"CMAKE_SOURCE_DIR" : "/mnt/Data/Other/Code/cpp/ASCII/gui",
 	"CROSS_CONFIG" : false,
-	"DEP_FILE" : "/mnt/Data/Other/Code/cpp/qt/ASCII_GUI/build/Desktop_Qt_6_11_1_Debug/ASCII_GUI_autogen/deps",
+	"DEP_FILE" : "/mnt/Data/Other/Code/cpp/ASCII/gui/build/Desktop_Qt_6_11_1_Debug/ASCII_GUI_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "ASCII_GUI_autogen/timestamp",
 	"HEADERS" : 
 	[
 		[
-			"/mnt/Data/Other/Code/cpp/qt/ASCII_GUI/colorSchemes.h",
+			"/mnt/Data/Other/Code/cpp/ASCII/gui/colorSchemes.h",
 			"MU",
 			"EWIEGA46WW/moc_colorSchemes.cpp",
 			null
 		],
 		[
-			"/mnt/Data/Other/Code/cpp/qt/ASCII_GUI/mainwindow.h",
+			"/mnt/Data/Other/Code/cpp/ASCII/gui/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/mnt/Data/Other/Code/cpp/qt/ASCII_GUI/build/Desktop_Qt_6_11_1_Debug/ASCII_GUI_autogen/include",
-	"MOC_COMPILATION_FILE" : "/mnt/Data/Other/Code/cpp/qt/ASCII_GUI/build/Desktop_Qt_6_11_1_Debug/ASCII_GUI_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "/mnt/Data/Other/Code/cpp/ASCII/gui/build/Desktop_Qt_6_11_1_Debug/ASCII_GUI_autogen/include",
+	"MOC_COMPILATION_FILE" : "/mnt/Data/Other/Code/cpp/ASCII/gui/build/Desktop_Qt_6_11_1_Debug/ASCII_GUI_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_QML_DEBUG", "QT_WIDGETS_LIB" ],
 	"MOC_DEPEND_FILTERS" : 
 	[
@@ -650,21 +650,21 @@
 		"-c",
 		"/home/cybersortir936/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/mnt/Data/Other/Code/cpp/qt/ASCII_GUI/build/Desktop_Qt_6_11_1_Debug/ASCII_GUI_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/mnt/Data/Other/Code/cpp/ASCII/gui/build/Desktop_Qt_6_11_1_Debug/ASCII_GUI_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 6,
-	"PARSE_CACHE_FILE" : "/mnt/Data/Other/Code/cpp/qt/ASCII_GUI/build/Desktop_Qt_6_11_1_Debug/CMakeFiles/ASCII_GUI_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "/mnt/Data/Other/Code/cpp/ASCII/gui/build/Desktop_Qt_6_11_1_Debug/CMakeFiles/ASCII_GUI_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/home/cybersortir936/Qt/6.11.1/gcc_64/libexec/moc",
 	"QT_UIC_EXECUTABLE" : "/home/cybersortir936/Qt/6.11.1/gcc_64/libexec/uic",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 11,
-	"SETTINGS_FILE" : "/mnt/Data/Other/Code/cpp/qt/ASCII_GUI/build/Desktop_Qt_6_11_1_Debug/CMakeFiles/ASCII_GUI_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/mnt/Data/Other/Code/cpp/ASCII/gui/build/Desktop_Qt_6_11_1_Debug/CMakeFiles/ASCII_GUI_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "/mnt/Data/Other/Code/cpp/qt/ASCII_GUI/main.cpp", "MU", null ],
-		[ "/mnt/Data/Other/Code/cpp/qt/ASCII_GUI/mainwindow.cpp", "MU", null ]
+		[ "/mnt/Data/Other/Code/cpp/ASCII/gui/main.cpp", "MU", null ],
+		[ "/mnt/Data/Other/Code/cpp/ASCII/gui/mainwindow.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

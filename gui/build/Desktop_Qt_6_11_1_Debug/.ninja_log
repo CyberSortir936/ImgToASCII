@@ -1,12 +1,20 @@
 # ninja log v5
 2725	3024	1785409791723707915	qtTest	99f32f2f68af6dea
-6	234	1785409788935718378	qtTest_autogen/mocs_compilation.cpp	eee3c03bcce34239
-6	234	1785409788935718378	qtTest_autogen/timestamp	eee3c03bcce34239
+2450	2755	1785411114142688855	ASCII_GUI	e2698cefb24c0b1d
 1	215	1785411111601698819	ASCII_GUI_autogen/timestamp	59a311431f71de0f
-1	215	1785411111601698819	ASCII_GUI_autogen/mocs_compilation.cpp	59a311431f71de0f
-1	215	1785411111601698819	/mnt/Data/Other/Code/cpp/qt/ASCII_GUI/build/Desktop_Qt_6_11_1_Debug/ASCII_GUI_autogen/timestamp	59a311431f71de0f
+6	234	1785409788935718378	qtTest_autogen/mocs_compilation.cpp	eee3c03bcce34239
 1	215	1785411111601698819	/mnt/Data/Other/Code/cpp/qt/ASCII_GUI/build/Desktop_Qt_6_11_1_Debug/ASCII_GUI_autogen/mocs_compilation.cpp	59a311431f71de0f
 216	2150	1785411113539691220	CMakeFiles/ASCII_GUI.dir/main.cpp.o	744d3ecaea48df4b
-215	2206	1785411113594691004	CMakeFiles/ASCII_GUI.dir/ASCII_GUI_autogen/mocs_compilation.cpp.o	3459222c2fec1304
 216	2450	1785411113839690043	CMakeFiles/ASCII_GUI.dir/mainwindow.cpp.o	d2c2a3208139b758
-2450	2755	1785411114142688855	ASCII_GUI	e2698cefb24c0b1d
+1	215	1785411111601698819	/mnt/Data/Other/Code/cpp/qt/ASCII_GUI/build/Desktop_Qt_6_11_1_Debug/ASCII_GUI_autogen/timestamp	59a311431f71de0f
+6	234	1785409788935718378	qtTest_autogen/timestamp	eee3c03bcce34239
+1	215	1785411111601698819	ASCII_GUI_autogen/mocs_compilation.cpp	59a311431f71de0f
+215	2206	1785411113594691004	CMakeFiles/ASCII_GUI.dir/ASCII_GUI_autogen/mocs_compilation.cpp.o	3459222c2fec1304
+4	197	1785415848004777080	ASCII_GUI_autogen/timestamp	55b9398309b7f369
+4	197	1785415848004777080	ASCII_GUI_autogen/mocs_compilation.cpp	55b9398309b7f369
+4	197	1785415848004777080	/mnt/Data/Other/Code/cpp/ASCII/gui/build/Desktop_Qt_6_11_1_Debug/ASCII_GUI_autogen/timestamp	55b9398309b7f369
+4	197	1785415848004777080	/mnt/Data/Other/Code/cpp/ASCII/gui/build/Desktop_Qt_6_11_1_Debug/ASCII_GUI_autogen/mocs_compilation.cpp	55b9398309b7f369
+198	2002	1785415849813990198	CMakeFiles/ASCII_GUI.dir/ASCII_GUI_autogen/mocs_compilation.cpp.o	93728a56db32a1d4
+198	2031	1785415849843646691	CMakeFiles/ASCII_GUI.dir/main.cpp.o	f55c37c6a4f5cdba
+198	2337	1785415850147770386	CMakeFiles/ASCII_GUI.dir/mainwindow.cpp.o	21a37fd67e63ffed
+2337	2661	1785415850471067599	ASCII_GUI	e2698cefb24c0b1d

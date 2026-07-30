@@ -1,5 +1,5 @@
-/mnt/Data/Other/Code/cpp/qt/ASCII_GUI/build/Desktop_Qt_6_11_1_Debug/ASCII_GUI_autogen/EWIEGA46WW/moc_mainwindow.cpp: /mnt/Data/Other/Code/cpp/qt/ASCII_GUI/mainwindow.h \
-  /mnt/Data/Other/Code/cpp/qt/ASCII_GUI/build/Desktop_Qt_6_11_1_Debug/ASCII_GUI_autogen/moc_predefs.h \
+/mnt/Data/Other/Code/cpp/ASCII/gui/build/Desktop_Qt_6_11_1_Debug/ASCII_GUI_autogen/EWIEGA46WW/moc_mainwindow.cpp: /mnt/Data/Other/Code/cpp/ASCII/gui/mainwindow.h \
+  /mnt/Data/Other/Code/cpp/ASCII/gui/build/Desktop_Qt_6_11_1_Debug/ASCII_GUI_autogen/moc_predefs.h \
   /home/cybersortir936/Qt/6.11.1/gcc_64/include/QtCore/QDebug \
   /home/cybersortir936/Qt/6.11.1/gcc_64/include/QtCore/QFile \
   /home/cybersortir936/Qt/6.11.1/gcc_64/include/QtCore/q17memory.h \
