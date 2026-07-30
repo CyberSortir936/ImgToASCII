@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-65cb5f52f346c88568a2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ASCII_GUI",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ASCII_GUI::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ASCII_GUI-Debug-f1f4fe42f63f7fd61058.json",
+					"name" : "ASCII_GUI",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ASCII_GUI_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ASCII_GUI_autogen-Debug-95678f6b18b03445a646.json",
+					"name" : "ASCII_GUI_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ASCII_GUI_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ASCII_GUI_autogen_timestamp_deps-Debug-a06ec439752449699b6e.json",
+					"name" : "ASCII_GUI_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/mnt/Data/Other/Code/cpp/qt/ASCII_GUI/build/Desktop_Qt_6_11_1_Debug",
+		"source" : "/mnt/Data/Other/Code/cpp/qt/ASCII_GUI"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

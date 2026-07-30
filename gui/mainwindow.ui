@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>441</width>
+    <height>425</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="gridLayoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>91</y>
+      <width>391</width>
+      <height>52</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_2">
+     <item row="0" column="0">
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>Character to pixel ratio</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="PixelRatio"/>
+     </item>
+     <item row="1" column="2">
+      <spacer name="horizontalSpacer_3">
+       <property name="orientation">
+        <enum>Qt::Orientation::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item row="1" column="0">
+      <widget class="QSlider" name="PixelSlider">
+       <property name="maximumSize">
+        <size>
+         <width>140</width>
+         <height>15</height>
+        </size>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Orientation::Horizontal</enum>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="gridLayoutWidget_3">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>21</y>
+      <width>391</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_3">
+     <item row="0" column="0">
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>Input File</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLineEdit" name="filePath"/>
+     </item>
+     <item row="1" column="1">
+      <widget class="QPushButton" name="BrowseButton">
+       <property name="text">
+        <string>Browse</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>151</y>
+      <width>391</width>
+      <height>54</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QCheckBox" name="InvertCheck">
+       <property name="text">
+        <string>Invert Colors</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QCheckBox" name="EdgesCheck">
+       <property name="text">
+        <string>Draw Edges Only</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="gridLayoutWidget_4">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>211</y>
+      <width>391</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_4">
+     <item row="1" column="0">
+      <widget class="QComboBox" name="AccentDropDown">
+       <item>
+        <property name="text">
+         <string>Red</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Green</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Yellow</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Blue</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Purple</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>White</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QComboBox" name="ColorSchemeDropDown">
+       <item>
+        <property name="text">
+         <string>Gruvbox</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Everforest</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Nord</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Kanagawa</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Catppuccin</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Dracula</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Custom</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLabel" name="label_3">
+       <property name="text">
+        <string>Color Scheme</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLabel" name="label_4">
+       <property name="text">
+        <string>Accent</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="SaveButton">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>390</y>
+      <width>86</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Convert</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="gridLayoutWidget_5">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>290</y>
+      <width>391</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_5">
+     <item row="0" column="1">
+      <widget class="QLabel" name="label_5">
+       <property name="text">
+        <string>Background</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLineEdit" name="CustomAccent"/>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLabel" name="label_6">
+       <property name="text">
+        <string>Accent</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLineEdit" name="CustomBack"/>
+     </item>
+     <item row="0" column="2">
+      <spacer name="horizontalSpacer_4">
+       <property name="orientation">
+        <enum>Qt::Orientation::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item row="1" column="2">
+      <spacer name="horizontalSpacer_5">
+       <property name="orientation">
+        <enum>Qt::Orientation::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
