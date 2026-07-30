@@ -230,3 +230,9 @@ void MainWindow::on_SaveButton_clicked()
     qDebug() << "Filename: " << fileName;
 }
 
+
+void MainWindow::on_AccentDropDown_currentIndexChanged(int index)
+{
+    setAccentColor(index);
+}
+

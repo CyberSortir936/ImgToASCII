@@ -8,7 +8,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/mnt/Data/Other/Code/cpp/ASCII/cli/src/Image.cpp" "CMakeFiles/main.dir/src/Image.cpp.o" "gcc" "CMakeFiles/main.dir/src/Image.cpp.o.d"
   "/mnt/Data/Other/Code/cpp/ASCII/cli/src/main.cpp" "CMakeFiles/main.dir/src/main.cpp.o" "gcc" "CMakeFiles/main.dir/src/main.cpp.o.d"
   )
 
