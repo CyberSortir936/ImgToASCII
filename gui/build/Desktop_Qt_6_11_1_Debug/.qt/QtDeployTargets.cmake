@@ -1,2 +1,0 @@
-set(__QT_DEPLOY_TARGET_ASCII_GUI_FILE /mnt/Data/Other/Code/cpp/ASCII/gui/build/Desktop_Qt_6_11_1_Debug/ASCII_GUI)
-set(__QT_DEPLOY_TARGET_ASCII_GUI_TYPE EXECUTABLE)
