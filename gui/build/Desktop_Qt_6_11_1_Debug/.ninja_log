@@ -1,0 +1,16 @@
+# ninja log v5
+4	238	1785418833076194545	/mnt/Data/Other/Code/cpp/ASCII/gui/build/Desktop_Qt_6_11_1_Debug/ASCII_GUI_autogen/timestamp	55b9398309b7f369
+2725	3024	1785409791723707915	qtTest	99f32f2f68af6dea
+2809	3156	1785418835994180549	ASCII_GUI	e2698cefb24c0b1d
+5	11	0	CMakeFiles/clean.additional	abca3d201377c10a
+4	238	1785418833076194545	ASCII_GUI_autogen/timestamp	55b9398309b7f369
+6	234	1785409788935718378	qtTest_autogen/mocs_compilation.cpp	eee3c03bcce34239
+1	215	1785411111601698819	/mnt/Data/Other/Code/cpp/qt/ASCII_GUI/build/Desktop_Qt_6_11_1_Debug/ASCII_GUI_autogen/mocs_compilation.cpp	59a311431f71de0f
+238	2264	1785418835106626091	CMakeFiles/ASCII_GUI.dir/main.cpp.o	f55c37c6a4f5cdba
+11	19	0	clean	798dcc7b9dea4bc7
+238	2809	1785418835651827134	CMakeFiles/ASCII_GUI.dir/mainwindow.cpp.o	21a37fd67e63ffed
+4	238	1785418833076194545	/mnt/Data/Other/Code/cpp/ASCII/gui/build/Desktop_Qt_6_11_1_Debug/ASCII_GUI_autogen/mocs_compilation.cpp	55b9398309b7f369
+1	215	1785411111601698819	/mnt/Data/Other/Code/cpp/qt/ASCII_GUI/build/Desktop_Qt_6_11_1_Debug/ASCII_GUI_autogen/timestamp	59a311431f71de0f
+6	234	1785409788935718378	qtTest_autogen/timestamp	eee3c03bcce34239
+4	238	1785418833076194545	ASCII_GUI_autogen/mocs_compilation.cpp	55b9398309b7f369
+238	2377	1785418835220184261	CMakeFiles/ASCII_GUI.dir/ASCII_GUI_autogen/mocs_compilation.cpp.o	93728a56db32a1d4

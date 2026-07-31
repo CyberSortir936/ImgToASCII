@@ -33,3 +33,10 @@ out/
 moc_*.cpp
 ui_*.h
 qrc_*.cpp
+
+# Editor directories and configurations
+.vscode/
+
+# Local build and environment cache
+.cmake/
+.qt/
