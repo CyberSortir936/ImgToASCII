@@ -414,4 +414,12 @@ gui/CMakeFiles/ASCII_GUI.dir/mainwindow.cpp.o: \
  /usr/include/qt6/QtWidgets/QSlider \
  /usr/include/qt6/QtWidgets/QSpacerItem \
  /usr/include/qt6/QtWidgets/QVBoxLayout \
- /usr/include/qt6/QtWidgets/QWidget
+ /usr/include/qt6/QtWidgets/QWidget \
+ /mnt/Data/Other/Code/cpp/ASCII/core/guiImageConverter.h \
+ /mnt/Data/Other/Code/cpp/ASCII/core/colorSchemes.h \
+ /mnt/Data/Other/Code/cpp/ASCII/core/Image.h \
+ /mnt/Data/Other/Code/cpp/ASCII/core/stb_truetype.h \
+ /usr/include/c++/16/iostream /usr/include/c++/16/fstream \
+ /usr/include/c++/16/x86_64-redhat-linux/bits/basic_file.h \
+ /usr/include/c++/16/x86_64-redhat-linux/bits/c++io.h \
+ /usr/include/c++/16/bits/fstream.tcc

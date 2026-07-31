@@ -26,7 +26,7 @@ public:
     void setPixelScale(int pixelScale);
     void setInverted(bool isInverted);
     void setEdges(bool isEdges);
-    void setColorScheme(QString colorScheme);
+    void setColorScheme(int colorScheme);
     void setAccentColor(int accentColor);
     void setCustomBack(QString customBack);
     void setCustomAccent(QString customAccent);
@@ -37,7 +37,7 @@ public:
     int getPixelScale();
     bool getInverted();
     bool getEdges();
-    QString getColorScheme();
+    int getColorScheme();
     int getAccentColor();
     QString getCustomBack();
     QString getCustomAccent();
@@ -78,7 +78,7 @@ private:
     bool isInverted = false;
     bool isEdges = false;
 
-    QString colorScheme;
+    int colorScheme = 0;
     int accentColor = 0;
 
     bool isCustomColor = false;

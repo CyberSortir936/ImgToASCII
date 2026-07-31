@@ -18,7 +18,6 @@ ASCII_GUI_autogen/timestamp: \
 	/home/cybersortir936/st/stm32cubeclt_1.21.0/CMake/share/cmake-3.28/Modules/MacroAddFileDependencies.cmake \
 	/mnt/Data/Other/Code/cpp/ASCII/gui/ASCII_GUI_autogen/moc_predefs.h \
 	/mnt/Data/Other/Code/cpp/ASCII/gui/CMakeLists.txt \
-	/mnt/Data/Other/Code/cpp/ASCII/gui/colorSchemes.h \
 	/mnt/Data/Other/Code/cpp/ASCII/gui/main.cpp \
 	/mnt/Data/Other/Code/cpp/ASCII/gui/mainwindow.cpp \
 	/mnt/Data/Other/Code/cpp/ASCII/gui/mainwindow.h \

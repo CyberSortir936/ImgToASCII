@@ -71,13 +71,13 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 63,
+				"line" : 62,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 46,
+				"line" : 45,
 				"parent" : 0
 			},
 			{
@@ -241,6 +241,10 @@
 					"path" : "/mnt/Data/Other/Code/cpp/ASCII/gui/ASCII_GUI_autogen/include"
 				},
 				{
+					"backtrace" : 6,
+					"path" : "/mnt/Data/Other/Code/cpp/ASCII/core"
+				},
+				{
 					"backtrace" : 30,
 					"isSystem" : true,
 					"path" : "/usr/include/qt6/QtCore"
@@ -287,6 +291,10 @@
 	"dependencies" : 
 	[
 		{
+			"backtrace" : 6,
+			"id" : "core::@57760688d1f824db5d9c"
+		},
+		{
 			"id" : "ASCII_GUI_autogen_timestamp_deps::@35f413a6cfe5475b20aa"
 		},
 		{
@@ -324,6 +332,11 @@
 			{
 				"backtrace" : 6,
 				"fragment" : "/usr/lib64/libQt6Widgets.so.6.11.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "../core/libcore.a",
 				"role" : "libraries"
 			},
 			{
@@ -372,8 +385,7 @@
 			"sourceIndexes" : 
 			[
 				3,
-				5,
-				6
+				5
 			]
 		},
 		{
@@ -381,14 +393,14 @@
 			"sourceIndexes" : 
 			[
 				4,
-				7
+				6
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				8
+				7
 			]
 		}
 	],
@@ -422,11 +434,6 @@
 			"backtrace" : 4,
 			"path" : "gui/mainwindow.ui",
 			"sourceGroupIndex" : 2
-		},
-		{
-			"backtrace" : 4,
-			"path" : "gui/colorSchemes.h",
-			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,

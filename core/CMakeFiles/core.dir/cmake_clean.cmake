@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/core.dir/Image.cpp.o"
   "CMakeFiles/core.dir/Image.cpp.o.d"
+  "CMakeFiles/core.dir/guiImageConverter.cpp.o"
+  "CMakeFiles/core.dir/guiImageConverter.cpp.o.d"
   "libcore.a"
   "libcore.pdb"
 )

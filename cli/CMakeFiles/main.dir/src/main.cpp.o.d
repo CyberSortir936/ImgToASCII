@@ -172,6 +172,7 @@ cli/CMakeFiles/main.dir/src/main.cpp.o: \
  /usr/include/c++/16/x86_64-redhat-linux/bits/c++io.h \
  /usr/include/c++/16/bits/fstream.tcc /usr/include/c++/16/array \
  /usr/include/c++/16/compare \
+ /mnt/Data/Other/Code/cpp/ASCII/core/guiImageConverter.h \
+ /mnt/Data/Other/Code/cpp/ASCII/core/colorSchemes.h \
  /mnt/Data/Other/Code/cpp/ASCII/core/stb_truetype.h \
- /usr/include/c++/16/math.h /usr/include/c++/16/stdlib.h \
- /usr/include/assert.h
+ /mnt/Data/Other/Code/cpp/ASCII/core/stb_truetype.h

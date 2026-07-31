@@ -132,6 +132,7 @@ gui/ASCII_GUI: gui/CMakeFiles/ASCII_GUI.dir/main.cpp.o
 gui/ASCII_GUI: gui/CMakeFiles/ASCII_GUI.dir/mainwindow.cpp.o
 gui/ASCII_GUI: gui/CMakeFiles/ASCII_GUI.dir/build.make
 gui/ASCII_GUI: /usr/lib64/libQt6Widgets.so.6.11.1
+gui/ASCII_GUI: core/libcore.a
 gui/ASCII_GUI: /usr/lib64/libQt6Gui.so.6.11.1
 gui/ASCII_GUI: /usr/lib64/libGLX.so
 gui/ASCII_GUI: /usr/lib64/libOpenGL.so

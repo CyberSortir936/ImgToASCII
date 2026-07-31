@@ -83,17 +83,33 @@ core/CMakeFiles/core.dir/Image.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/core.dir/Image.cpp.s"
 	cd /mnt/Data/Other/Code/cpp/ASCII/core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Data/Other/Code/cpp/ASCII/core/Image.cpp -o CMakeFiles/core.dir/Image.cpp.s
 
+core/CMakeFiles/core.dir/guiImageConverter.cpp.o: core/CMakeFiles/core.dir/flags.make
+core/CMakeFiles/core.dir/guiImageConverter.cpp.o: core/guiImageConverter.cpp
+core/CMakeFiles/core.dir/guiImageConverter.cpp.o: core/CMakeFiles/core.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/Data/Other/Code/cpp/ASCII/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object core/CMakeFiles/core.dir/guiImageConverter.cpp.o"
+	cd /mnt/Data/Other/Code/cpp/ASCII/core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT core/CMakeFiles/core.dir/guiImageConverter.cpp.o -MF CMakeFiles/core.dir/guiImageConverter.cpp.o.d -o CMakeFiles/core.dir/guiImageConverter.cpp.o -c /mnt/Data/Other/Code/cpp/ASCII/core/guiImageConverter.cpp
+
+core/CMakeFiles/core.dir/guiImageConverter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/core.dir/guiImageConverter.cpp.i"
+	cd /mnt/Data/Other/Code/cpp/ASCII/core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Data/Other/Code/cpp/ASCII/core/guiImageConverter.cpp > CMakeFiles/core.dir/guiImageConverter.cpp.i
+
+core/CMakeFiles/core.dir/guiImageConverter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/core.dir/guiImageConverter.cpp.s"
+	cd /mnt/Data/Other/Code/cpp/ASCII/core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Data/Other/Code/cpp/ASCII/core/guiImageConverter.cpp -o CMakeFiles/core.dir/guiImageConverter.cpp.s
+
 # Object files for target core
 core_OBJECTS = \
-"CMakeFiles/core.dir/Image.cpp.o"
+"CMakeFiles/core.dir/Image.cpp.o" \
+"CMakeFiles/core.dir/guiImageConverter.cpp.o"
 
 # External object files for target core
 core_EXTERNAL_OBJECTS =
 
 core/libcore.a: core/CMakeFiles/core.dir/Image.cpp.o
+core/libcore.a: core/CMakeFiles/core.dir/guiImageConverter.cpp.o
 core/libcore.a: core/CMakeFiles/core.dir/build.make
 core/libcore.a: core/CMakeFiles/core.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/Data/Other/Code/cpp/ASCII/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libcore.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/Data/Other/Code/cpp/ASCII/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libcore.a"
 	cd /mnt/Data/Other/Code/cpp/ASCII/core && $(CMAKE_COMMAND) -P CMakeFiles/core.dir/cmake_clean_target.cmake
 	cd /mnt/Data/Other/Code/cpp/ASCII/core && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/core.dir/link.txt --verbose=$(VERBOSE)
 

@@ -1,5 +1,10 @@
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
+#include "guiImageConverter.h"
+
+#include "Image.h"
+#include <vector>
+#include <string>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -53,7 +58,7 @@ void MainWindow::setInverted(bool isInverted){
 void MainWindow::setEdges(bool isEdges){
     this->isEdges = isEdges;
 }
-void MainWindow::setColorScheme(QString colorScheme){
+void MainWindow::setColorScheme(int colorScheme){
     this->colorScheme = colorScheme;
 }
 void MainWindow::setAccentColor(int accentColor){
@@ -89,7 +94,7 @@ bool MainWindow::getInverted(){
 bool MainWindow::getEdges(){
     return this->isEdges;
 }
-QString MainWindow::getColorScheme(){
+int MainWindow::getColorScheme(){
     return this->colorScheme;
 }
 int MainWindow::getAccentColor(){
@@ -128,38 +133,19 @@ void MainWindow::on_BrowseButton_clicked()
 void MainWindow::on_ColorSchemeDropDown_activated(int index)
 {
     //Gruvbox, Everforest, Nord, Kanagawa, Catppuccin, Dracula, Custom
-    switch (index) {
-    case 0:
-        setColorScheme("Gruvbox");
-        break;
-    case 1:
-        setColorScheme("Everforest");
-        break;
-    case 2:
-        setColorScheme("Nord");
-        break;
-    case 3:
-        setColorScheme("Kanagawa");
-        break;
-    case 4:
-        setColorScheme("Catppuccin");
-        break;
-    case 5:
-        setColorScheme("Dracula");
-        break;
-    case 6:
-        setColorScheme("Custom");
+
+    if (index >= 6){
         setCustomColor(true);
 
         ui->CustomBack->setEnabled(true);
         ui->CustomAccent->setEnabled(true);
         ui->AccentDropDown->setEnabled(false);
         return;
-    default:
-        break;
     }
 
+    setColorScheme(index);
     setCustomColor(false);
+
     ui->CustomBack->setEnabled(false);
     ui->CustomAccent->setEnabled(false);
     ui->AccentDropDown->setEnabled(true);
@@ -221,13 +207,50 @@ void MainWindow::on_EdgesCheck_checkStateChanged(const Qt::CheckState &arg1)
 
 void MainWindow::on_SaveButton_clicked()
 {
+    QString inputPath = getInputPath();
+
+    if(inputPath.isNull() || inputPath.isEmpty() ){
+        QMessageBox::critical(this, "Error", "Please choose input file.");
+        return;
+    }
+
     QString fileName = QFileDialog::getSaveFileName(this,
                                                     tr("Save File As"),
                                                     QCoreApplication::applicationDirPath(),
-                                                    tr("Image Files (*.jpg *.png *.bmp)"));
+                                                    tr("Filename"));
 
     setOutputPath(fileName);
     qDebug() << "Filename: " << fileName;
+
+    std::string fontFilename = "../core/BigBlue_TerminalPlus.TTF";
+
+    std::vector<unsigned char> fontBuffer = loadFont(fontFilename);
+    stbtt_fontinfo font;
+    stbtt_InitFont(&font, fontBuffer.data(), 0);
+
+    Image img(inputPath.toStdString().c_str());
+    if (getInverted()){
+        img.invert();
+    }
+
+    std::string textOutput = fileName.toStdString() + "_text.txt";
+
+    std::vector<std::string> asciiArt = convertToASCII(img, getPixelScale(), getEdges());
+    printToFile(asciiArt, textOutput);
+
+    RGB bgColor;
+    RGB accentColor;
+
+    if(getCustomColor()){
+        bgColor = hexToRGB(getCustomBack().toStdString());
+        accentColor = hexToRGB(getCustomAccent().toStdString());
+    }
+    else{
+        bgColor = returnColorFromScheme(getColorScheme(), 0);
+        accentColor = returnColorFromScheme(getColorScheme(), getAccentColor() + 1);
+    }
+
+    renderTextToImageGUI(asciiArt, font, getPixelScale(), img, bgColor, accentColor, fileName.toStdString());
 }
 
 

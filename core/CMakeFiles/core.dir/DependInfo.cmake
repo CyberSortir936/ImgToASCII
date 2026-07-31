@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/mnt/Data/Other/Code/cpp/ASCII/core/Image.cpp" "core/CMakeFiles/core.dir/Image.cpp.o" "gcc" "core/CMakeFiles/core.dir/Image.cpp.o.d"
+  "/mnt/Data/Other/Code/cpp/ASCII/core/guiImageConverter.cpp" "core/CMakeFiles/core.dir/guiImageConverter.cpp.o" "gcc" "core/CMakeFiles/core.dir/guiImageConverter.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

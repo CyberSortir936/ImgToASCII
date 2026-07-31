@@ -4,6 +4,8 @@
 cli/CMakeFiles/main.dir/src/main.cpp.o
  /mnt/Data/Other/Code/cpp/ASCII/cli/src/main.cpp
  /mnt/Data/Other/Code/cpp/ASCII/core/Image.h
+ /mnt/Data/Other/Code/cpp/ASCII/core/colorSchemes.h
+ /mnt/Data/Other/Code/cpp/ASCII/core/guiImageConverter.h
  /mnt/Data/Other/Code/cpp/ASCII/core/stb_truetype.h
  /usr/include/alloca.h
  /usr/include/asm-generic/bitsperlong.h
@@ -17,7 +19,6 @@ cli/CMakeFiles/main.dir/src/main.cpp.o
  /usr/include/asm/posix_types.h
  /usr/include/asm/posix_types_64.h
  /usr/include/asm/types.h
- /usr/include/assert.h
  /usr/include/bits/atomic_wide_counter.h
  /usr/include/bits/byteswap.h
  /usr/include/bits/cpu-set.h
@@ -189,12 +190,10 @@ cli/CMakeFiles/main.dir/src/main.cpp.o
  /usr/include/c++/16/iostream
  /usr/include/c++/16/istream
  /usr/include/c++/16/limits
- /usr/include/c++/16/math.h
  /usr/include/c++/16/new
  /usr/include/c++/16/ostream
  /usr/include/c++/16/pstl/pstl_config.h
  /usr/include/c++/16/stdexcept
- /usr/include/c++/16/stdlib.h
  /usr/include/c++/16/streambuf
  /usr/include/c++/16/string
  /usr/include/c++/16/string_view

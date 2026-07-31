@@ -3,6 +3,8 @@
 
 cli/CMakeFiles/main.dir/src/main.cpp.o: cli/src/main.cpp \
   core/Image.h \
+  core/colorSchemes.h \
+  core/guiImageConverter.h \
   core/stb_truetype.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
@@ -16,7 +18,6 @@ cli/CMakeFiles/main.dir/src/main.cpp.o: cli/src/main.cpp \
   /usr/include/asm/posix_types.h \
   /usr/include/asm/posix_types_64.h \
   /usr/include/asm/types.h \
-  /usr/include/assert.h \
   /usr/include/bits/atomic_wide_counter.h \
   /usr/include/bits/byteswap.h \
   /usr/include/bits/cpu-set.h \
@@ -188,12 +189,10 @@ cli/CMakeFiles/main.dir/src/main.cpp.o: cli/src/main.cpp \
   /usr/include/c++/16/iostream \
   /usr/include/c++/16/istream \
   /usr/include/c++/16/limits \
-  /usr/include/c++/16/math.h \
   /usr/include/c++/16/new \
   /usr/include/c++/16/ostream \
   /usr/include/c++/16/pstl/pstl_config.h \
   /usr/include/c++/16/stdexcept \
-  /usr/include/c++/16/stdlib.h \
   /usr/include/c++/16/streambuf \
   /usr/include/c++/16/string \
   /usr/include/c++/16/string_view \
@@ -323,13 +322,9 @@ cli/CMakeFiles/main.dir/src/main.cpp.o: cli/src/main.cpp \
 
 /usr/include/c++/16/string:
 
-/usr/include/c++/16/stdlib.h:
-
 /usr/include/c++/16/x86_64-redhat-linux/bits/gthr-default.h:
 
 /usr/include/c++/16/stdexcept:
-
-/usr/include/c++/16/ostream:
 
 /usr/include/c++/16/new:
 
@@ -365,8 +360,6 @@ cli/CMakeFiles/main.dir/src/main.cpp.o: cli/src/main.cpp \
 
 /usr/include/bits/time.h:
 
-/usr/include/c++/16/math.h:
-
 /usr/include/bits/types/locale_t.h:
 
 /usr/include/bits/types/error_t.h:
@@ -384,8 +377,6 @@ cli/CMakeFiles/main.dir/src/main.cpp.o: cli/src/main.cpp \
 /usr/include/c++/16/bits/stl_iterator_base_types.h:
 
 /usr/include/c++/16/bits/basic_ios.h:
-
-/usr/include/bits/types/__fpos_t.h:
 
 /usr/include/bits/types/FILE.h:
 
@@ -408,6 +399,8 @@ cli/CMakeFiles/main.dir/src/main.cpp.o: cli/src/main.cpp \
 /usr/include/bits/types/clock_t.h:
 
 /usr/include/bits/types/struct_tm.h:
+
+cli/src/main.cpp:
 
 /usr/include/features.h:
 
@@ -457,8 +450,6 @@ cli/CMakeFiles/main.dir/src/main.cpp.o: cli/src/main.cpp \
 
 /usr/include/bits/libm-simd-decl-stubs.h:
 
-cli/src/main.cpp:
-
 /usr/include/asm-generic/bitsperlong.h:
 
 /usr/include/c++/16/streambuf:
@@ -469,13 +460,9 @@ cli/src/main.cpp:
 
 /usr/include/c++/16/bits/memory_resource.h:
 
-/usr/include/bits/types/__FILE.h:
+/usr/include/bits/mathcalls-narrow.h:
 
-/usr/include/c++/16/initializer_list:
-
-/usr/include/asm/types.h:
-
-/usr/include/c++/16/bits/functexcept.h:
+/usr/include/asm/errno.h:
 
 /usr/include/c++/16/tr1/gamma.tcc:
 
@@ -491,19 +478,11 @@ cli/src/main.cpp:
 
 /usr/include/c++/16/bits/move.h:
 
-/usr/include/asm/errno.h:
-
-/usr/include/bits/mathcalls-narrow.h:
-
 /usr/include/bits/mathcalls.h:
 
 /usr/include/asm-generic/types.h:
 
 /usr/include/asm-generic/posix_types.h:
-
-/usr/include/bits/types/time_t.h:
-
-/usr/include/c++/16/bits/char_traits.h:
 
 /usr/include/wctype.h:
 
@@ -527,13 +506,27 @@ core/stb_truetype.h:
 
 /usr/include/c++/16/bits/functional_hash.h:
 
+/usr/include/bits/cpu-set.h:
+
+/usr/include/bits/types/__FILE.h:
+
+/usr/include/c++/16/initializer_list:
+
+/usr/include/asm/types.h:
+
+/usr/include/c++/16/bits/functexcept.h:
+
+/usr/include/c++/16/ostream:
+
+core/colorSchemes.h:
+
+/usr/include/bits/types/__fpos_t.h:
+
 /usr/include/bits/types/struct_FILE.h:
 
 /usr/include/c++/16/tr1/special_function_util.h:
 
 /usr/include/bits/errno.h:
-
-/usr/include/bits/cpu-set.h:
 
 /usr/include/c++/16/system_error:
 
@@ -599,6 +592,10 @@ core/Image.h:
 
 /usr/include/bits/mathcalls-helper-functions.h:
 
+/usr/include/c++/16/bits/char_traits.h:
+
+/usr/include/bits/types/time_t.h:
+
 /usr/include/c++/16/tr1/poly_hermite.tcc:
 
 /usr/include/bits/types/timer_t.h:
@@ -606,8 +603,6 @@ core/Image.h:
 /usr/include/bits/byteswap.h:
 
 /usr/include/c++/16/bits/streambuf_iterator.h:
-
-/usr/include/assert.h:
 
 /usr/include/bits/types/wint_t.h:
 
@@ -619,9 +614,17 @@ core/Image.h:
 
 /usr/include/bits/uintn-identity.h:
 
+/usr/include/c++/16/cstddef:
+
+/usr/include/c++/16/bits/ios_base.h:
+
+/usr/include/bits/wchar.h:
+
 /usr/include/bits/wctype-wchar.h:
 
 /usr/include/bits/types/__fpos64_t.h:
+
+core/guiImageConverter.h:
 
 /usr/include/bits/wordsize.h:
 
@@ -770,9 +773,3 @@ core/Image.h:
 /usr/include/c++/16/x86_64-redhat-linux/bits/error_constants.h:
 
 /usr/include/c++/16/compare:
-
-/usr/include/c++/16/bits/ios_base.h:
-
-/usr/include/bits/wchar.h:
-
-/usr/include/c++/16/cstddef:

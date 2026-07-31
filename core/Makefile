@@ -199,6 +199,30 @@ Image.cpp.s:
 	cd /mnt/Data/Other/Code/cpp/ASCII && $(MAKE) $(MAKESILENT) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/Image.cpp.s
 .PHONY : Image.cpp.s
 
+guiImageConverter.o: guiImageConverter.cpp.o
+.PHONY : guiImageConverter.o
+
+# target to build an object file
+guiImageConverter.cpp.o:
+	cd /mnt/Data/Other/Code/cpp/ASCII && $(MAKE) $(MAKESILENT) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/guiImageConverter.cpp.o
+.PHONY : guiImageConverter.cpp.o
+
+guiImageConverter.i: guiImageConverter.cpp.i
+.PHONY : guiImageConverter.i
+
+# target to preprocess a source file
+guiImageConverter.cpp.i:
+	cd /mnt/Data/Other/Code/cpp/ASCII && $(MAKE) $(MAKESILENT) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/guiImageConverter.cpp.i
+.PHONY : guiImageConverter.cpp.i
+
+guiImageConverter.s: guiImageConverter.cpp.s
+.PHONY : guiImageConverter.s
+
+# target to generate assembly for a file
+guiImageConverter.cpp.s:
+	cd /mnt/Data/Other/Code/cpp/ASCII && $(MAKE) $(MAKESILENT) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/guiImageConverter.cpp.s
+.PHONY : guiImageConverter.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -215,6 +239,9 @@ help:
 	@echo "... Image.o"
 	@echo "... Image.i"
 	@echo "... Image.s"
+	@echo "... guiImageConverter.o"
+	@echo "... guiImageConverter.i"
+	@echo "... guiImageConverter.s"
 .PHONY : help
 
 

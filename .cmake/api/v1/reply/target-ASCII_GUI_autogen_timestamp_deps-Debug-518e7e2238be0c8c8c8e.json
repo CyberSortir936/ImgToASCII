@@ -14,6 +14,12 @@
 			}
 		]
 	},
+	"dependencies" : 
+	[
+		{
+			"id" : "core::@57760688d1f824db5d9c"
+		}
+	],
 	"id" : "ASCII_GUI_autogen_timestamp_deps::@35f413a6cfe5475b20aa",
 	"isGeneratorProvided" : true,
 	"name" : "ASCII_GUI_autogen_timestamp_deps",
