@@ -41,8 +41,8 @@ inline std::vector<std::vector<std::string>> colorSchemes{
     "#16161D", // BG
     "#E82424", // Red
     "#76946A", // Green
-    "#658594", // Blue
     "#FF9E3B", // Yellow
+    "#658594", // Blue
     "#957FB8", // Violet
     "#DCD7BA" //White
     }, 
@@ -51,8 +51,8 @@ inline std::vector<std::vector<std::string>> colorSchemes{
     "#2e3440", // BG
     "#bf616a", // Red
     "#a3be8c", // Green
-    "#81a1c1", // Blue
     "#ebcb8b", // Yellow
+    "#81a1c1", // Blue
     "#b48ead", // Purple
     "#eceff4" // White
     }, 
@@ -61,8 +61,8 @@ inline std::vector<std::vector<std::string>> colorSchemes{
     "#282A36", // BG
     "#FF5555", // Red
     "#50FA7B", // Green
-    "#6272A4", // Blue
     "#F1FA8C", // Yellow
+    "#6272A4", // Blue
     "#BD93F9", // Purple
     "#F8F8F2" //White
     }

@@ -18,3 +18,18 @@ images/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #cmake-build-*
+
+# Build directories
+build/
+build-*/
+out/
+
+# VS Code settings
+.vscode/
+
+# Qt auto-generated files
+*_autogen/
+*.moc
+moc_*.cpp
+ui_*.h
+qrc_*.cpp

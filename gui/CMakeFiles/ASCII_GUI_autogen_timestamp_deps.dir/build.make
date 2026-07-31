@@ -67,10 +67,10 @@ include gui/CMakeFiles/ASCII_GUI_autogen_timestamp_deps.dir/compiler_depend.make
 include gui/CMakeFiles/ASCII_GUI_autogen_timestamp_deps.dir/progress.make
 
 gui/CMakeFiles/ASCII_GUI_autogen_timestamp_deps: core/libcore.a
-gui/CMakeFiles/ASCII_GUI_autogen_timestamp_deps: /usr/lib64/qt6/libexec/moc
-gui/CMakeFiles/ASCII_GUI_autogen_timestamp_deps: /usr/lib64/libQt6Widgets.so.6.11.1
-gui/CMakeFiles/ASCII_GUI_autogen_timestamp_deps: /usr/lib64/libQt6Core.so.6.11.1
 gui/CMakeFiles/ASCII_GUI_autogen_timestamp_deps: /usr/lib64/qt6/libexec/uic
+gui/CMakeFiles/ASCII_GUI_autogen_timestamp_deps: /usr/lib64/qt6/libexec/moc
+gui/CMakeFiles/ASCII_GUI_autogen_timestamp_deps: /usr/lib64/libQt6Core.so.6.11.1
+gui/CMakeFiles/ASCII_GUI_autogen_timestamp_deps: /usr/lib64/libQt6Widgets.so.6.11.1
 
 ASCII_GUI_autogen_timestamp_deps: gui/CMakeFiles/ASCII_GUI_autogen_timestamp_deps
 ASCII_GUI_autogen_timestamp_deps: gui/CMakeFiles/ASCII_GUI_autogen_timestamp_deps.dir/build.make

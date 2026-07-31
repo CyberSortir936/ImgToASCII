@@ -1,4 +1,5 @@
 {
     "cmake.sourceDirectory": "${workspaceFolder}",
-    "cmake.buildDirectory": "${workspaceFolder}"
+    "cmake.buildDirectory": "${workspaceFolder}",
+    "makefile.configureOnOpen": false
 }
